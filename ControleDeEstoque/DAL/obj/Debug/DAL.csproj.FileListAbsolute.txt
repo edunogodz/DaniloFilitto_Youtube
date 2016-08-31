@@ -1,0 +1,7 @@
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\DAL\bin\Debug\DAL.dll
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\DAL\bin\Debug\DAL.pdb
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\DAL\bin\Debug\Modelo.dll
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\DAL\bin\Debug\Modelo.pdb
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\DAL\obj\Debug\DAL.dll
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\DAL\obj\Debug\DAL.pdb

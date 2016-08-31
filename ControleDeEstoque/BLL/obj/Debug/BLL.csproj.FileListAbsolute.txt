@@ -1,0 +1,9 @@
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\BLL\bin\Debug\BLL.dll
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\BLL\bin\Debug\BLL.pdb
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\BLL\bin\Debug\DAL.dll
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\BLL\bin\Debug\Modelo.dll
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\BLL\bin\Debug\DAL.pdb
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\BLL\bin\Debug\Modelo.pdb
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\BLL\obj\Debug\BLL.dll
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\BLL\obj\Debug\BLL.pdb
