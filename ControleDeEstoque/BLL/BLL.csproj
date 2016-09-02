@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLLCategoria.cs" />
+    <Compile Include="BLLSubCategoria.cs" />
+    <Compile Include="BLLUnidadeDeMedida.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

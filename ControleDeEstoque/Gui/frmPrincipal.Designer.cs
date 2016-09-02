@@ -38,10 +38,6 @@
             this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fornecedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.movimentacaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.relatorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ferramentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.categoriaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.subCategoriaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.unidadeDeMedidaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,6 +45,10 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.clienteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.fornecedorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.movimentacaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.relatorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ferramentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,12 +93,14 @@
             this.subCategoriaToolStripMenuItem.Name = "subCategoriaToolStripMenuItem";
             this.subCategoriaToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.subCategoriaToolStripMenuItem.Text = "SubCategoria";
+            this.subCategoriaToolStripMenuItem.Click += new System.EventHandler(this.subCategoriaToolStripMenuItem_Click);
             // 
             // unidadeDeMedidaToolStripMenuItem
             // 
             this.unidadeDeMedidaToolStripMenuItem.Name = "unidadeDeMedidaToolStripMenuItem";
             this.unidadeDeMedidaToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.unidadeDeMedidaToolStripMenuItem.Text = "Unidade de Medida";
+            this.unidadeDeMedidaToolStripMenuItem.Click += new System.EventHandler(this.unidadeDeMedidaToolStripMenuItem_Click);
             // 
             // produtoToolStripMenuItem
             // 
@@ -137,30 +139,6 @@
             this.consultaToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.consultaToolStripMenuItem.Text = "Consulta";
             // 
-            // movimentacaoToolStripMenuItem
-            // 
-            this.movimentacaoToolStripMenuItem.Name = "movimentacaoToolStripMenuItem";
-            this.movimentacaoToolStripMenuItem.Size = new System.Drawing.Size(99, 20);
-            this.movimentacaoToolStripMenuItem.Text = "Movimentacao";
-            // 
-            // relatorioToolStripMenuItem
-            // 
-            this.relatorioToolStripMenuItem.Name = "relatorioToolStripMenuItem";
-            this.relatorioToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
-            this.relatorioToolStripMenuItem.Text = "Relatorio";
-            // 
-            // ferramentasToolStripMenuItem
-            // 
-            this.ferramentasToolStripMenuItem.Name = "ferramentasToolStripMenuItem";
-            this.ferramentasToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
-            this.ferramentasToolStripMenuItem.Text = "Ferramentas";
-            // 
-            // sobreToolStripMenuItem
-            // 
-            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.sobreToolStripMenuItem.Text = "Sobre";
-            // 
             // categoriaToolStripMenuItem1
             // 
             this.categoriaToolStripMenuItem1.Name = "categoriaToolStripMenuItem1";
@@ -173,12 +151,14 @@
             this.subCategoriaToolStripMenuItem1.Name = "subCategoriaToolStripMenuItem1";
             this.subCategoriaToolStripMenuItem1.Size = new System.Drawing.Size(177, 22);
             this.subCategoriaToolStripMenuItem1.Text = "SubCategoria";
+            this.subCategoriaToolStripMenuItem1.Click += new System.EventHandler(this.subCategoriaToolStripMenuItem1_Click);
             // 
             // unidadeDeMedidaToolStripMenuItem1
             // 
             this.unidadeDeMedidaToolStripMenuItem1.Name = "unidadeDeMedidaToolStripMenuItem1";
             this.unidadeDeMedidaToolStripMenuItem1.Size = new System.Drawing.Size(177, 22);
             this.unidadeDeMedidaToolStripMenuItem1.Text = "Unidade de Medida";
+            this.unidadeDeMedidaToolStripMenuItem1.Click += new System.EventHandler(this.unidadeDeMedidaToolStripMenuItem1_Click);
             // 
             // produtoToolStripMenuItem1
             // 
@@ -202,6 +182,30 @@
             this.fornecedorToolStripMenuItem1.Name = "fornecedorToolStripMenuItem1";
             this.fornecedorToolStripMenuItem1.Size = new System.Drawing.Size(177, 22);
             this.fornecedorToolStripMenuItem1.Text = "Fornecedor";
+            // 
+            // movimentacaoToolStripMenuItem
+            // 
+            this.movimentacaoToolStripMenuItem.Name = "movimentacaoToolStripMenuItem";
+            this.movimentacaoToolStripMenuItem.Size = new System.Drawing.Size(99, 20);
+            this.movimentacaoToolStripMenuItem.Text = "Movimentacao";
+            // 
+            // relatorioToolStripMenuItem
+            // 
+            this.relatorioToolStripMenuItem.Name = "relatorioToolStripMenuItem";
+            this.relatorioToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.relatorioToolStripMenuItem.Text = "Relatorio";
+            // 
+            // ferramentasToolStripMenuItem
+            // 
+            this.ferramentasToolStripMenuItem.Name = "ferramentasToolStripMenuItem";
+            this.ferramentasToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
+            this.ferramentasToolStripMenuItem.Text = "Ferramentas";
+            // 
+            // sobreToolStripMenuItem
+            // 
+            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.sobreToolStripMenuItem.Text = "Sobre";
             // 
             // frmPrincipal
             // 

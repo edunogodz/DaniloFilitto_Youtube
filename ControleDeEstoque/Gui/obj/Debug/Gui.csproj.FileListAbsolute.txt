@@ -16,3 +16,7 @@ D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\Gui\obj\Debug\Gui.frmPrincipal.
 D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\Gui\obj\Debug\Gui.frmModelodeFormulariodeCadastro.resources
 D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\Gui\obj\Debug\Gui.frmCadastroCategoria.resources
 D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\Gui\obj\Debug\Gui.frmConsultaCategoria.resources
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\Gui\obj\Debug\Gui.frmCadastroSubCategoria.resources
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\Gui\obj\Debug\Gui.frmConsultaSubCategoria.resources
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\Gui\obj\Debug\Gui.frmCadastroUnidadeDeMedida.resources
+D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\Gui\obj\Debug\Gui.frmConsultaUnidadeDeMedida.resources

@@ -30,5 +30,34 @@ namespace Gui
             f.ShowDialog();
             f.Dispose();
         }
+
+        private void subCategoriaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroSubCategoria frmCadastroSubCategoria = new frmCadastroSubCategoria();
+            frmCadastroSubCategoria.ShowDialog();
+            frmCadastroSubCategoria.Dispose();
+        }
+
+        private void subCategoriaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmConsultaSubCategoria f = new frmConsultaSubCategoria();
+            f.ShowDialog();
+            f.Dispose();
+        }
+
+        private void unidadeDeMedidaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmConsultaUnidadeDeMedida f = new frmConsultaUnidadeDeMedida();
+            f.ShowDialog();
+            f.Dispose();
+
+        }
+
+        private void unidadeDeMedidaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroUnidadeDeMedida frmCadastroUnidadeDeMedida = new frmCadastroUnidadeDeMedida();
+            frmCadastroUnidadeDeMedida.ShowDialog();
+            frmCadastroUnidadeDeMedida.Dispose();
+        }
     }
 }
