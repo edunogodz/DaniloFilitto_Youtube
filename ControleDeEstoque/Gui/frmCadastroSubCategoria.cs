@@ -132,5 +132,29 @@ namespace Gui
 
             f.Dispose();
         }
+
+        private void txtNome_Leave(object sender, EventArgs e)
+        {
+            if (this.operacao == "Inserir")
+            {
+                int r = 0;
+                DALConexao cnx = new DALConexao(DadosDaConexao.StringDeConexao);
+                BLLSubCategoria bll = new BLLSubCategoria(cnx);
+                r = bll.VerificaSubCategoria(txtNome.Text);
+                if (r > 0)
+                {
+                    DialogResult d = MessageBox.Show("Já existe um registro com esse valor. Deseja Alterar o registro?", "Aviso", MessageBoxButtons.YesNo);
+                    if (d.ToString() == "Yes")
+                    {
+                        this.operacao = "Alterar";
+                        ModeloSubCategoria modelo = bll.CarregaModeloSubCategoria(r);
+                        txtScatCod.Text = modelo.ScatCod.ToString();
+                        txtNome.Text = modelo.ScatNome.ToString();
+                        cmbCatCod.SelectedValue = modelo.CatCod;
+                        this.alteraBotoes(3);
+                    }
+                }
+            }
+        }
     }
 }

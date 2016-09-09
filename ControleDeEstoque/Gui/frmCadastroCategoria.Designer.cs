@@ -99,6 +99,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(761, 20);
             this.txtNome.TabIndex = 3;
+            this.txtNome.Leave += new System.EventHandler(this.txtNome_Leave);
             // 
             // frmCadastroCategoria
             // 

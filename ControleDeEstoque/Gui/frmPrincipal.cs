@@ -59,5 +59,27 @@ namespace Gui
             frmCadastroUnidadeDeMedida.ShowDialog();
             frmCadastroUnidadeDeMedida.Dispose();
         }
+
+        private void produtoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroProduto f = new frmCadastroProduto();
+            f.ShowDialog();
+            f.Dispose();
+        }
+
+        private void produtoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmConsultaProduto f = new frmConsultaProduto();
+            f.ShowDialog();
+            f.Dispose();
+
+        }
+
+        private void configuraçãoDoBancoDeDadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConfiguracaoBancoDados f = new frmConfiguracaoBancoDados();
+            f.ShowDialog();
+            f.Dispose();
+        }
     }
 }

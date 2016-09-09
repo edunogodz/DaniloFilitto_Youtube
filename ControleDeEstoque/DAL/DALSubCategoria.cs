@@ -94,6 +94,33 @@ namespace DAL
             return tabela;
         }
 
+        public DataTable LocalizarPorCategoria(int codigo)
+        {
+            DataTable tabela = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter("select scat_cod,scat_nome,c.cat_cod, c.cat_nome from subcategoria s join categoria C on C.cat_cod = S.cat_cod where s.cat_cod = '" + codigo + "'", conexao.StringConexao);
+            da.Fill(tabela);
+            return tabela;
+        }
+
+        public int VerificaSubCategoria(string valor)
+        {
+            int r = 0;
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = conexao.ObjetoConexao;
+            cmd.CommandText = "select * from subcategoria where scat_nome = @valor";
+            cmd.Parameters.AddWithValue("@valor", valor);
+            conexao.Conectar();
+            SqlDataReader registro = cmd.ExecuteReader();
+            if (registro.HasRows)
+            {
+                registro.Read();
+                r = Convert.ToInt32(registro["scat_cod"]);
+            }
+
+            conexao.Desconectar();
+            return r;
+        }
+
         public ModeloSubCategoria CarregaModeloSubCategoria(int codigo)
         {
             ModeloSubCategoria modelo = new ModeloSubCategoria();

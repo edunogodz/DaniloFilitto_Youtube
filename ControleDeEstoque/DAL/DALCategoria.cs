@@ -61,6 +61,25 @@ namespace DAL
             return tabela;
         }
 
+        public int VerificaCategoria(string valor)
+        {
+            int r = 0;
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = conexao.ObjetoConexao;
+            cmd.CommandText = "select * from Categoria where cat_nome = @valor";
+            cmd.Parameters.AddWithValue("@valor", valor);
+            conexao.Conectar();
+            SqlDataReader registro = cmd.ExecuteReader();
+            if (registro.HasRows)
+            {
+                registro.Read();
+                r = Convert.ToInt32(registro["cat_Cod"]);
+            }
+
+            conexao.Desconectar();
+            return r;
+        }
+
         public ModeloCategoria CarregaModeloCategoria(int codigo)
         {
             ModeloCategoria modelo = new ModeloCategoria();

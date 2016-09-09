@@ -62,5 +62,13 @@ namespace Gui
         {
             this.alteraBotoes(1);
         }
+
+        private void frmModelodeFormulariodeCadastro_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                this.SelectNextControl(this.ActiveControl, !e.Shift, true, true, true);
+            }
+        }
     }
 }

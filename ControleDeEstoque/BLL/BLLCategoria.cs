@@ -60,6 +60,12 @@ namespace BLL
             return DALobj.Localizar(valor);
         }
 
+        public int VerificaCategoria(string valor)
+        {
+            DALCategoria DALobj = new DALCategoria(conexao);
+            return DALobj.VerificaCategoria(valor);
+        }
+
         public ModeloCategoria CarregaModeloCategoria(int codigo)
         {
             DALCategoria DALobj = new DALCategoria(conexao);

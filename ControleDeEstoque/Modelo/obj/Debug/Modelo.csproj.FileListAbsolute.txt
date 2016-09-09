@@ -1,4 +1,3 @@
-D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\Modelo\bin\Debug\Modelo.dll
 D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\Modelo\bin\Debug\Modelo.pdb
 D:\Learn\DaniloFilitto_Youtube\ControleDeEstoque\Modelo\obj\Debug\Modelo.dll
